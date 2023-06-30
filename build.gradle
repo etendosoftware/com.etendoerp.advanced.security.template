@@ -10,7 +10,7 @@ group          = "com.etendoerp"
 version        = "1.0.0"
 description    = "Etendo Advanced Security Template"
 ext.artifact   = "advanced.security.template"
-ext.repository = "https://repo.futit.cloud/repository/maven-releases"
+ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
 
 configurations {
     moduleDependencyContainer
@@ -27,7 +27,7 @@ publishing {
     }
     repositories {
         maven {
-            url "https://repo.futit.cloud/repository/maven-releases"
+            url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
         }
     }
 }
@@ -35,13 +35,7 @@ publishing {
 repositories {
     mavenCentral()
     maven {
-        url "https://repo.futit.cloud/repository/maven-releases"
-    }
-    maven {
-        url "https://repo.futit.cloud/repository/maven-public-releases"
-    }
-    maven {
-        url "https://repo.futit.cloud/repository/maven-public-jars"
+        url "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
     }
 }
 
@@ -50,6 +44,5 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 23.1.0)') 
-
+   implementation('com.etendoerp.platform:etendo-core:[22.1.0, 23.2.0)')
 }
