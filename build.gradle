@@ -7,7 +7,7 @@
 */
 
 group          = "com.etendoerp"
-version        = "1.2.1"
+version        = "1.2.2"
 description    = "Etendo Advanced Security Template"
 ext.artifact   = "advanced.security.template"
 ext.repository = "https://maven.pkg.github.com/etendosoftware/com.etendoerp.platform.extensions"
@@ -44,7 +44,7 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:advanced.security:1.2.1')
+    implementation('com.etendoerp:advanced.security:1.2.2')
 
     implementation('com.etendoerp.platform:etendo-core:[23.2.0,24.1.0)')
 }
