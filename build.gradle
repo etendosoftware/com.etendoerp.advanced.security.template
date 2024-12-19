@@ -44,7 +44,5 @@ repositories {
 * Ex: implementation "com.sun.mail:javax.mail:1.6.2"
 */
 dependencies {
-    implementation('com.etendoerp:advanced.security:1.5.1')
 
-    implementation('com.etendoerp.platform:etendo-core:[23.2.0,24.4.0)')
 }
